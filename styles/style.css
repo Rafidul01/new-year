@@ -45,3 +45,51 @@ header {
   width: 500px;
   padding-left: 700px;
 }
+.failures {
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.fail-head {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 300px;
+  padding-bottom: none;
+}
+.fail-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 416px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.fail-list ul li {
+  list-style: none;
+}
+.fail-list ul li i {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #16d887;
+}
+.img-container {
+  display: flex;
+  position: relative;
+}
+.img-back {
+  /* display: flex; */
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  width: 527.929px;
+  height: 527.929px;
+  /* align-self: flex-end; */
+  align-self: self-end;
+}
+.img-container img {
+  position: absolute;
+}
